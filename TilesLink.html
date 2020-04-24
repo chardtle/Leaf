@@ -27,6 +27,9 @@
   <div id="map"></div>
   <script>
       var map = L.map('map').setView([35.05939756547741, -77.06446996673088], 12.0);
+      
+      
+
       var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	     maxZoom: 19,
 	      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -46,20 +49,28 @@
         "New Bern Photo": newbern
       }
 
-      L.control.layers(daTile).addTo(map);
       
-      L.marker([35.101412, -77.087113]).addTo(map)
+      
+      var wally = L.marker([35.101412, -77.087113])
             .bindPopup("Walmart")
             .openPopup();
-        L.marker([35.088511, -77.021244]).addTo(map)
+      var river = L.marker([35.088511, -77.021244])
             .bindPopup("Neuse River")
             .openPopup();
-        L.marker([35.100789, -77.081968]).addTo(map)
+      var house = L.marker([35.100789, -77.081968])
             .bindPopup("My house")
             .openPopup();
-        L.marker([35.077216, -77.022779]).addTo(map)
+      var home = L.marker([35.077216, -77.022779])
             .bindPopup("My childhood home")
             .openPopup();
+
+      var markerz = {
+        "Walmart": wally,
+        "Nuese River": river,
+        "2nd House": house,
+        "Where I grew up":home
+      }
+        L.control.layers(markerz,daTile).addTo(map);
      
 
 
