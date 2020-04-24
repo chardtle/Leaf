@@ -34,12 +34,20 @@
 
 
 
-      var daphoto = L.tileLayer('./Image_Tiles/{z}/{x}/{y}.png', {
+      var newbern = L.tileLayer('./Image_Tiles/{z}/{x}/{y}.png', {
         minZoom: 12,
         maxZoom: 13,
         tms: false,
         attribution: 'USGS'
       }).addTo(map);
+
+      var daTile = {
+        "Open Street Map": OpenStreetMap_Mapnik,
+        "New Bern Photo": newbern
+      }
+
+      L.control.layers(daTile).addTo(map);
+      
       L.marker([35.101412, -77.087113]).addTo(map)
             .bindPopup("Walmart")
             .openPopup();
