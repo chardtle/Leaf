@@ -1,0 +1,5 @@
+id, x, y, html
+My childhood Home,	-77.022797,	35.077091,	https://geo0.ggpht.com/cbk?panoid=Gsx56VvyXycdf76NXnMCTw&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&w=408&h=240&yaw=162.7727&pitch=0&thumbfov=100 
+Boyfriends home,	-77.100643,	35.078711,	https://geo1.ggpht.com/cbk?panoid=r7PBEgS2MeNUpYgs0Ykdtg&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&w=408&h=240&yaw=8.789734&pitch=0&thumbfov=100
+Craven community College,	-77.10329,	35.111676,	https://lh5.googleusercontent.com/p/AF1QipNzYm2KlWibqNUqnm1F-Hnz9rVI918Q_Wpwx0qt=w408-h544-k-no
+My second Home in New Bern,	-77.082,	35.100513,	https://geo3.ggpht.com/cbk?panoid=gtrNXnYOORsvgdQPPcfQ4Q&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&w=408&h=240&yaw=281.96252&pitch=0&thumbfov=100
