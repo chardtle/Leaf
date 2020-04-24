@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Map</title>
+    <title>My Leaflet Map</title>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
@@ -29,7 +29,9 @@
         L.marker([35.101412, -77.087113]).addTo(map)
             .bindPopup("Walmart")
             .openPopup();
-
+        L.marker([35.088511, -77.021244]).addTo(map)
+            .bindPopup("Neuse River")
+            .openPopup();
         L.marker([35.100789, -77.081968]).addTo(map)
             .bindPopup("My house")
             .openPopup();
